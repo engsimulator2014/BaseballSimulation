@@ -13,8 +13,6 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * Description: MapReduce job that will produce a list of career batting stats for every MLB player
@@ -27,8 +25,6 @@ public class PlayerBatting {
 	 * @param args
 	 */
     public static void main(String[] args) throws Exception {
-        //Logger logger = LoggerFactory.getLogger(PlayerBatting.class);
-        //logger.info("PlayerBatting starting up...");
 
 	    /*
 	     * The expected command-line arguments are the paths containing
