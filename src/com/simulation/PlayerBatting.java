@@ -16,7 +16,8 @@ import org.apache.hadoop.util.ToolRunner;
 
 /**
  * Description: MapReduce job that will produce a list of career batting stats for every MLB player
-
+ * Mike Schmidt:  schmimi01
+ * http://www.baseball-reference.com/players/s/schmimi01.shtml
  */
 public class PlayerBatting {
 
